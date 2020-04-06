@@ -5,7 +5,8 @@
 *.so
 *.dylib
 
-*.exec
+*.exec:
+GoStudyDemo_Pro
 
 # Test binary, built with `go test -c`
 *.test
