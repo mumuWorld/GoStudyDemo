@@ -2,17 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91f209aa-25cf-4e84-9024-e8b5b419aad4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/GoStudyDemo_Pro.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/register_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoStudyDemo_Pro" beforeDir="false" afterPath="$PROJECT_DIR$/GoStudyDemo_Pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/loginController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/login_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="go_db_1: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="go_db_1: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="GoStudyDemo_Pro" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,14 +74,17 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
@@ -45,7 +92,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
@@ -62,18 +109,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="435" y="267" key="#Inspections" timestamp="1586013872194">
+    <state x="435" y="267" key="#Inspections" timestamp="1586141207064">
       <screen x="0" y="23" width="1632" height="1027" />
     </state>
-    <state x="435" y="267" key="#Inspections/0.23.1632.1027@0.23.1632.1027" timestamp="1586013872194" />
+    <state x="435" y="267" key="#Inspections/0.23.1632.1027@0.23.1632.1027" timestamp="1586141207064" />
     <state x="640" y="260" key="#Notifications" timestamp="1586011791786">
       <screen x="0" y="23" width="1632" height="1027" />
     </state>
     <state x="640" y="260" key="#Notifications/0.23.1632.1027@0.23.1632.1027" timestamp="1586011791786" />
-    <state x="301" y="136" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586015007089">
+    <state x="301" y="136" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586142427744">
       <screen x="0" y="23" width="1632" height="1027" />
     </state>
-    <state x="301" y="136" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1632.1027@0.23.1632.1027" timestamp="1586015007089" />
+    <state x="301" y="136" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1632.1027@0.23.1632.1027" timestamp="1586142427744" />
     <state x="544" y="244" key="#go_build_loginController.go" timestamp="1586014126987">
       <screen x="0" y="23" width="1632" height="1027" />
     </state>
@@ -94,9 +141,21 @@
       <screen x="0" y="23" width="1632" height="1027" />
     </state>
     <state width="1237" height="202" key="GridCell.Tab.0.right/0.23.1632.1027@0.23.1632.1027" timestamp="1586014636889" />
-    <state x="499" y="58" key="SettingsEditor" timestamp="1586015287334">
+    <state width="234" height="457" key="HiddenNamespacesPopup" timestamp="1586142435256">
       <screen x="0" y="23" width="1632" height="1027" />
     </state>
-    <state x="499" y="58" key="SettingsEditor/0.23.1632.1027@0.23.1632.1027" timestamp="1586015287334" />
+    <state width="234" height="457" key="HiddenNamespacesPopup/0.23.1632.1027@0.23.1632.1027" timestamp="1586142435256" />
+    <state x="499" y="58" key="SettingsEditor" timestamp="1586171056280">
+      <screen x="0" y="23" width="1632" height="1027" />
+    </state>
+    <state x="499" y="58" key="SettingsEditor/0.23.1632.1027@0.23.1632.1027" timestamp="1586171056280" />
+    <state x="762" y="447" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1586142472925">
+      <screen x="0" y="23" width="1632" height="1027" />
+    </state>
+    <state x="762" y="447" key="com.intellij.database.view.ui.DbObjectDialog/0.23.1632.1027@0.23.1632.1027" timestamp="1586142472925" />
+    <state x="632" y="374" width="670" height="676" key="search.everywhere.popup" timestamp="1586171647059">
+      <screen x="0" y="23" width="1632" height="1027" />
+    </state>
+    <state x="632" y="374" width="670" height="676" key="search.everywhere.popup/0.23.1632.1027@0.23.1632.1027" timestamp="1586171647059" />
   </component>
 </project>
