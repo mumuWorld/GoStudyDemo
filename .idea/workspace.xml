@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91f209aa-25cf-4e84-9024-e8b5b419aad4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controllers/article_controller.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/login_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/login_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,16 +29,16 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="go_db_1@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="go_db_1@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="go_db_1@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="go_db_1: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
@@ -77,6 +82,12 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
@@ -102,30 +113,39 @@
       <screen x="0" y="23" width="1632" height="1027" />
     </state>
     <state x="640" y="260" key="#Notifications/0.23.1632.1027@0.23.1632.1027" timestamp="1586011791786" />
-    <state x="392" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586172977511">
-      <screen x="0" y="23" width="1632" height="1027" />
+    <state x="448" y="138" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586615485748">
+      <screen x="0" y="23" width="1866" height="1057" />
     </state>
     <state x="392" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1632.1027@0.23.1632.1027" timestamp="1586172977511" />
+    <state x="448" y="138" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1866.1057/-1080.-286.1080.1897@0.23.1866.1057" timestamp="1586615485748" />
     <state x="544" y="244" key="#go_build_loginController.go" timestamp="1586014126987">
       <screen x="0" y="23" width="1632" height="1027" />
     </state>
     <state x="544" y="244" key="#go_build_loginController.go/0.23.1632.1027@0.23.1632.1027" timestamp="1586014126987" />
-    <state width="1237" height="202" key="GridCell.Tab.0.bottom" timestamp="1586014636889">
-      <screen x="0" y="23" width="1632" height="1027" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1586615278526">
+      <screen x="0" y="23" width="1866" height="1057" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.23.1866.1057/-1080.-286.1080.1897@0.23.1866.1057" timestamp="1586615278526" />
+    <state width="1516" height="228" key="GridCell.Tab.0.bottom" timestamp="1586618214350">
+      <screen x="0" y="23" width="1866" height="1057" />
     </state>
     <state width="1237" height="202" key="GridCell.Tab.0.bottom/0.23.1632.1027@0.23.1632.1027" timestamp="1586014636889" />
-    <state width="1237" height="202" key="GridCell.Tab.0.center" timestamp="1586014636888">
-      <screen x="0" y="23" width="1632" height="1027" />
+    <state width="1516" height="228" key="GridCell.Tab.0.bottom/0.23.1866.1057/-1080.-286.1080.1897@0.23.1866.1057" timestamp="1586618214350" />
+    <state width="1516" height="228" key="GridCell.Tab.0.center" timestamp="1586618214349">
+      <screen x="0" y="23" width="1866" height="1057" />
     </state>
     <state width="1237" height="202" key="GridCell.Tab.0.center/0.23.1632.1027@0.23.1632.1027" timestamp="1586014636888" />
-    <state width="1237" height="202" key="GridCell.Tab.0.left" timestamp="1586014636887">
-      <screen x="0" y="23" width="1632" height="1027" />
+    <state width="1516" height="228" key="GridCell.Tab.0.center/0.23.1866.1057/-1080.-286.1080.1897@0.23.1866.1057" timestamp="1586618214349" />
+    <state width="1516" height="228" key="GridCell.Tab.0.left" timestamp="1586618214349">
+      <screen x="0" y="23" width="1866" height="1057" />
     </state>
     <state width="1237" height="202" key="GridCell.Tab.0.left/0.23.1632.1027@0.23.1632.1027" timestamp="1586014636887" />
-    <state width="1237" height="202" key="GridCell.Tab.0.right" timestamp="1586014636889">
-      <screen x="0" y="23" width="1632" height="1027" />
+    <state width="1516" height="228" key="GridCell.Tab.0.left/0.23.1866.1057/-1080.-286.1080.1897@0.23.1866.1057" timestamp="1586618214349" />
+    <state width="1516" height="228" key="GridCell.Tab.0.right" timestamp="1586618214349">
+      <screen x="0" y="23" width="1866" height="1057" />
     </state>
     <state width="1237" height="202" key="GridCell.Tab.0.right/0.23.1632.1027@0.23.1632.1027" timestamp="1586014636889" />
+    <state width="1516" height="228" key="GridCell.Tab.0.right/0.23.1866.1057/-1080.-286.1080.1897@0.23.1866.1057" timestamp="1586618214349" />
     <state width="234" height="457" key="HiddenNamespacesPopup" timestamp="1586142435256">
       <screen x="0" y="23" width="1632" height="1027" />
     </state>
@@ -134,10 +154,11 @@
       <screen x="0" y="23" width="1632" height="1027" />
     </state>
     <state x="499" y="58" key="SettingsEditor/0.23.1632.1027@0.23.1632.1027" timestamp="1586171056280" />
-    <state x="762" y="447" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1586142472925">
-      <screen x="0" y="23" width="1632" height="1027" />
+    <state x="1027" y="247" width="504" height="460" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1586615432845">
+      <screen x="0" y="23" width="1866" height="1057" />
     </state>
     <state x="762" y="447" key="com.intellij.database.view.ui.DbObjectDialog/0.23.1632.1027@0.23.1632.1027" timestamp="1586142472925" />
+    <state x="1027" y="247" width="504" height="460" key="com.intellij.database.view.ui.DbObjectDialog/0.23.1866.1057/-1080.-286.1080.1897@0.23.1866.1057" timestamp="1586615432845" />
     <state x="632" y="374" width="670" height="676" key="search.everywhere.popup" timestamp="1586171647059">
       <screen x="0" y="23" width="1632" height="1027" />
     </state>

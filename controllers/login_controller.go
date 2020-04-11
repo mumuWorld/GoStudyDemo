@@ -45,6 +45,7 @@ func (c *LoginController) HandleLogin()  {
 		return
 	}
 	c.Data["errMsg￿"] = "登录成功"
-	c.TplName = "login.html"
-	c.Ctx.WriteString("登录成功")
+	//c.TplName = "login.html"
+	//c.Ctx.WriteString("登录成功")
+	c.Redirect("/showArticleList",302)
 }
